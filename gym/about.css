@@ -1,0 +1,120 @@
+*{
+    padding:0px;
+    margin: 0px;
+    line-height: 34px;
+}
+#flo{
+    justify-content: center;
+    margin:0px auto;
+    align-items: center;
+    display:block;
+    text-align: center;
+    max-width: 100%;
+
+}
+#one{
+    padding-top:50px;
+}
+h1,h2{
+    text-align:center;
+    font-family: cursive;
+    font-size: 150%;
+    color:rgb(5, 5, 80) ;
+}
+#sm{  padding: 12px;
+    font-size: larger;
+}
+#people{
+    width:50%;
+    min-height: 12vh;
+    border-radius: 4px;
+}
+#f{
+    margin-top:12px;
+}
+p{
+    text-align: center;
+}
+#imp{
+    color:bisque;
+}
+
+h3{
+    text-align: center;
+    color:rgb(103, 103, 139);
+    font-family: cursive;
+    font-size: large;
+}
+#parent-nav{
+    position:fixed;
+    overflow:hidden;
+    min-height: 3rem;
+
+}
+html{
+    background-color:rgb(144, 175, 231);
+}
+#nav{
+    position:relative;}
+#logo{
+    height:30px;
+    width:30px;
+    margin-top: 4px;
+    border-radius: 34px;
+    border: 3px rgb(110, 110, 167) solid;
+}
+#head,#parent-nav,#navi{
+    list-style: none;
+    font-size: small;
+    margin:1px;
+    text-decoration: none;
+    display: flex;
+    margin: auto 0px;
+    align-items: center;
+    background-color:  rgb(23, 23, 46);
+    width:100%;
+    height:2%;
+    }
+#navi{
+margin: 8px;
+color:white;
+}
+
+#navi:hover{
+    background-color:rgb(102, 102, 236);
+    height:4.5vh;
+    max-width: fit-content;
+}
+
+
+#foot,#mail,#list,#footer-wrap{
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    color:rgb(163, 156, 148);}
+footer{
+background-color: rgb(77, 61, 67);
+line-height: 19px;
+position:relative;
+font-size: 12px;
+width:100%;
+bottom: 0px;}
+#copy{
+    float: right;}
+    /*Designing for ipadsphonesssssssssssssssssssssssssssss*/
+    @media screen and (min-width:768px) {
+        #people{
+width:400px;
+margin-top:5px;
+margin-left: 3%;
+display:inline-flexbox;
+border-radius: 0px;
+        }
+        #pe{
+            height:26vh;
+            width:14%;
+            object-fit:contain;
+        }
+
+        
+    }

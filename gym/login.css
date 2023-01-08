@@ -1,0 +1,130 @@
+
+    /*phones screenss,,,,,,,,,,,,,,
+    @media screen and (max-width:480px){     
+#mini{
+    margin:3%;
+    margin-right:30px;
+    background-color: rgb(168, 198, 224);
+    padding:8px;
+    border-radius: 5px 10px 5px 10px;
+    max-width:100%;
+}
+#mini{
+    justify-content: center;
+    display: grid;
+}
+#signup{
+    text-align: center;
+    color:rgb(51, 84, 122);
+}
+input{
+    display:block;
+    margin:17px;
+    padding:8px;
+    max-width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(56, 88, 114);
+    outline:none;
+    border-radius: 10px 5px 10px 5px;
+}
+button{
+    margin:17px;
+    padding:8px;
+    color:rgb(56, 88, 114);
+    outline: none;
+    border-radius: 10px 5px 10px 5px;}
+
+    }*/
+    
+    /*For ipad screen.....
+    @media screen and (max-width:768px){
+        *{
+            margin:0px;
+            padding:0px;
+        }   
+#mini{
+    margin:0px auto;
+    justify-content: center;
+    display: block;
+    background-color: rgb(168, 198, 224);
+    padding:8px;
+    border-radius: 5px 10px 5px 10px;
+    max-width: max-content;
+}
+#mini{
+    justify-content: center;
+    display: grid;
+}
+#signup{
+    text-align: center;
+    color:rgb(51, 84, 122);
+}
+input{
+    display:block;
+    margin:17px;
+    padding:8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(56, 88, 114);
+    outline:none;
+    border-radius: 10px 5px 10px 5px;
+}
+button{
+    margin:17px;
+    padding:8px;
+    color:rgb(56, 88, 114);
+    outline: none;
+    border-radius: 10px 5px 10px 5px;}
+   
+    }
+    */
+
+
+     /*For ipad screen.....*/
+     
+    body{
+        background-image:radial-gradient(rgb(135, 205, 219),rgb(79, 109, 165));
+    }
+#mini,#all{
+    margin: 0px auto;
+    justify-content: center;
+    display: block;
+    background-color: rgb(132, 170, 204);
+    padding:8px;
+    border-radius: 5px 10px 5px 10px;
+    max-width: max-content;
+}
+#mini{
+    justify-content: center;
+    display: grid;
+    padding:0px;
+    margin:0px;
+    
+}
+a{
+    text-decoration:none;
+    float:right;
+    color:rgb(25, 25, 121);
+}
+#signup{
+    text-align: center;
+    color:rgb(51, 84, 122);
+}
+input{
+    display:block;
+    margin:17px;
+    padding:8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(56, 88, 114);
+    outline:none;
+    border-radius: 10px 5px 10px 5px;
+}
+button{
+    margin:17px;
+    padding:8px;
+    color:rgb(56, 88, 114);
+    outline: none;
+    border-radius: 10px 5px 10px 5px;}
+   
+    #h{
+        float:left;
+    }
